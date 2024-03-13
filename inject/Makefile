@@ -26,7 +26,7 @@
 EXEC= inject
 BIN  = ../bin
 
-CC= gcc
+CC ?= gcc
 CFLAGS= -Wall -Wstrict-prototypes -Wpointer-arith -O3 -fomit-frame-pointer -fexpensive-optimizations
 LDLIBS= 
 OBJECTS= main.o
